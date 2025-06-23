@@ -1,0 +1,496 @@
+/* -----------INICIO-------------- */
+.Inicio {
+    background-image: url("C:\Users\sofis\Documents\portafolio-soph\src\images\escritorio.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 90%;
+    width: calc(94vw);
+    height: 80vh;
+    margin-top: 10vh;
+    padding: 10vh 0 0 5vw;
+}
+
+.Description {
+    width: 30vw;
+}
+
+.Correo_Inicio {
+    display: flex;
+    align-items: center;
+}
+
+.Correo_Inicio img {
+    width: 20px;
+    height: 20px;
+    margin-left: 1em;
+}
+.Correo_Inicio img:hover {
+    cursor: pointer;
+}
+
+.Contant_Inicio {
+    display: flex;
+    margin-top: 2em;
+}
+
+.Contant_Inicio button {
+    background-color: white;
+    color: black;
+    width: 20vw;
+    height: 6vh;
+    border-radius: 0;
+    font-weight: bolder;
+}
+
+.Contant_Inicio img {
+    height: 50px;
+    width: 50px;
+    margin-left: 1em;
+}
+
+/* ----------ACERCA DE MI------------ */
+.Acerca_De_Mi {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("C:\Users\sofis\Documents\portafolio-soph\src\images\escritorio-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right 100%;
+    width: 100%;
+    height: fit-content;
+    /* padding: 10vh 0 0 5vw; */
+    display: flex;
+    justify-content: space-between;
+}
+.Contenido_Acerca_De_Mi {
+    width: 50%;
+    padding-top: 10vh;
+    padding-left: 5vw;
+    margin-bottom: 2em;
+}
+.Contenido_Acerca_De_Mi h2 {
+    font-size: 2.5em;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+.Contenido_Acerca_De_Mi img {
+    height: 50px;
+    width: 50px;
+    margin: 0 1em 0 0;
+}
+.Contenido_Acerca_De_Mi h3 {
+    margin: 0.3em 0 0.3em 0;
+}
+.Soph {
+    width: 40%;
+    object-fit: cover;
+    filter: brightness(75%);
+}
+.Soph_Mobile {
+    display: none;
+}
+/* ---------PROYECTOS---------- */
+.Proyectos {
+    background-color: #1A1A1A;
+    padding: 4em;
+}
+.Proyectos h2 {
+    font-size: 2.5em;
+}
+.Card_Proyectos {
+    display: flex;
+    margin-top: 4em;
+}
+.Contenido_Proyecto {
+    width: 50%;
+    margin-left: 2em;
+}
+.Titulo_Proyecto {
+    display: flex;;
+}
+.Titulo_Proyecto img {
+    width: 30px;
+    height: 30px;
+}
+.Titulo_Proyecto h3 {
+    margin: 0 0 0 1em;
+}
+.Wrapper_Etiquetas {
+    display: flex;
+}
+.Etiquetas {
+    background-color: #282828;
+    border-radius: 9999px;
+    color: #6C6C6C;
+    display: flex;
+    width: fit-content;
+    padding: 0.3em;
+    margin-right: 1em;
+}
+.Etiquetas img {
+    height: 25px;
+    width: 25px;
+    margin-right: 0.5em;
+    margin-left: 0.5em
+}
+.Etiquetas p {
+   /*  font-weight: bold; */
+    margin: 0 0.5em 0 0;
+    
+}
+.Links_Proyecto {
+    display: flex;
+}
+.Link_Proyecto {
+    border: 1px solid white;
+    border-radius: 9999px;
+    color: white;
+    display: flex;
+    width: fit-content;
+    padding: 0.5em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+.Link_Proyecto a {
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+    display: flex;
+    margin: 0 1em 0 1em;
+}
+.Link_Proyecto img {
+    width: 25px;
+    height: 25px;
+    margin-right: 0.5em;
+}
+.Link_Proyecto p {
+    margin: 0;
+}
+.Link_Proyecto:hover  {
+    cursor: pointer;
+}
+.Preview_Proyecto {
+    width: 40%;
+    margin-left: 2em;
+}
+/* ---------EXPERIENCIA LABORAL---------- */
+.Experiencia_Laboral {
+    width: calc(99vw - 8em);
+    height: 60vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(C:\Users\sofis\Documents\portafolio-soph\src\images\oficina.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    padding: 4em;
+}
+.Wrapper_Cards_Experiencia_Laboral {
+    display: flex;
+    justify-content: space-between;
+}
+.Experiencia_Laboral h2 {
+    font-size: 2.5em;
+}
+.Card_Experiencia_Laboral {
+    width: 47%;
+}
+.Descripcion_Experiencia {
+   display: flex;
+}
+.Descripcion_Experiencia img {
+    width: 30px;
+    height: 30px;
+}
+.Descripcion_Experiencia h3 {
+    margin: 0 0 0 1em;
+}
+.Subtitulo_Experiencia {
+    font-weight: 600;
+    font-style: italic;
+}
+/* ----------ESTUDIOS----------- */
+.Estudios {
+    background-color: #1A1A1A;
+    width: calc(99vw - 8em);
+    padding: 4em;
+    display: flex;
+    justify-content: space-between;
+}
+.Wrapper_Estudios {
+    width: 40vw;
+    background-color: #1E1E1E;
+    border: 1px solid #383737;
+    padding: 2em;
+    border-radius: 20px;
+    margin-right: 2em;
+}
+.Wrapper_Estudios h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+.Wrapper_Estudios h3 {
+    margin: 1em 0 0.5em 0;
+}
+.Subtitulo_Estudios {
+    font-weight: 500;
+}
+.Wrapper_Estudios p {
+    margin: 0 0 0.5em 0;
+}
+
+.Idiomas {
+    width: 40vw;
+    background-color: #1E1E1E;
+    border: 1px solid #383737;
+    padding: 2em;
+    border-radius: 20px;
+}
+.Idiomas h2 {
+    font-size: 2.5em;
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+.Wrapper_Idioma {
+    display: flex;
+}
+.Wrapper_Idioma img {
+    height: 30px;
+    width: 30px;
+    margin-right: 1em;
+}
+.Wrapper_Idioma p {
+    margin: 0;
+    font-weight: 400;
+}
+
+.Blog {
+    display: flex;
+    justify-content: space-between;
+/*     width: 35vw; */
+    background-color: #1E1E1E;
+    border: 1px solid #383737;
+    border-radius: 20px;
+    margin-top: 2em;
+}
+.Wrapper_Blog {
+    padding: 2em;
+}
+.Wrapper_Blog h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+.Blog img {
+    width:12vw;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+/* ----------SERVICIOS---------- */
+.Servicios {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("C:\Users\sofis\Documents\portafolio-soph\src\images\code.jpg");
+     background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    padding: 4em;
+    width: calc(99vw - 8em);
+    text-align: center;
+    
+}
+.Servicios h2 {
+    margin: 0 0 1em 0;
+    font-size: 2.5em;
+}
+.Cards_Servicios {
+    display: flex;
+    justify-content: space-between;
+}
+.Card_Servicios {
+    background-color: rgba(30, 30, 30, 0.25);
+    border: 1px solid #383737;
+    border-radius: 20px;
+    text-align: start;
+    padding: 2em;
+    width: 25vw;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+.Card_Servicios h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+/* -----------CONTACTO----------- */
+.Contacto {
+    background-color: #1A1A1A;
+    padding: 4em;
+    width: calc(99vw - 8em);
+    text-align: center;
+}
+.Contacto h2 {
+    font-size: 2.5em;
+    margin: 0 0 1em 0;
+}
+.Contacto_Items {
+    display: flex;
+    justify-content: center;
+}
+.Correo_Contacto {
+    display: flex;
+    align-self: center;
+    margin-right: 2em;
+    margin-left: 1em;
+}
+.Correo_Contacto img {
+    width: 25px;
+    height: 25px;
+}
+.Correo_Contacto p {
+    margin: 0 1em 0 0.8em;
+}
+.Iconos_Contacto {
+    width: 40px;
+    height: 40px;
+    margin-right: 1em;
+}
+.Iconos_Contacto:hover {
+    cursor: pointer;
+}
+.Copiar_Boton_Contacto:hover {
+    cursor: pointer;
+}
+
+@media (1200px > width > 768px) {
+/* ---------PROYECTOS------------ */
+    .Proyectos {
+        padding: 2em 2em 2em 2em;
+    }
+    .Card_Proyectos {
+        display: flex;
+        flex-direction: column;
+    }
+    .Contenido_Proyecto {
+        width: 100%;
+        margin: 0;
+    }
+    .Preview_Proyecto {
+        width: 60%;
+        margin-top: 2em;
+        margin-left: 0;
+    }
+/* -----------ESTUDIOS---------- */
+.Estudios {
+        width: calc(100vw - 8em);
+        flex-direction: column;
+    }
+    .Wrapper_Estudios {
+        width: calc(100% - 4em);
+        margin-bottom: 2em;
+    }
+    .Idiomas {
+        width: calc(100% - 4em);
+    }
+    .Blog img {
+        width: 200px;
+    }
+ /*  --------SERVICIOS------------ */
+    .Servicios {
+        width: calc(100vw - 8em);
+    }
+    .Cards_Servicios {
+        flex-direction: column;
+    }
+    .Card_Servicios {
+        width: calc(100% - 4em);
+        margin-bottom: 2em;
+    }
+}
+
+@media (max-width: 768px) {
+/* -------------INICIO---------------- */
+    .Inicio {
+        width: calc(100vw - 2em);
+    }
+    .Description {
+        width: 60%;
+    }
+    .Contant_Inicio button {
+        width: fit-content;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+/* -----------ACERCA DE MI------------- */
+    .Acerca_De_Mi {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+ 
+    }
+    .Soph {
+        display: none;
+    }
+    .Soph_Mobile {
+        display: flex;
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+    .Contenido_Acerca_De_Mi {
+        padding-top: 5vh;
+        width: calc(100% - 2em);
+        padding-bottom: 10vh;
+    }
+    .Contenido_Acerca_De_Mi h2 {
+        margin: 1em 0 0 0;
+    }
+/* ------------PROYECTOS------------- */
+    .Proyectos {
+        padding: 2em 2em 2em 2em;
+    }
+    .Card_Proyectos {
+        display: flex;
+        flex-direction: column;
+    }
+    .Contenido_Proyecto {
+        width: 100%;
+        margin: 0;
+    }
+    .Preview_Proyecto {
+        width: 100%;
+        margin-top: 2em;
+        margin-left: 0;
+    }
+/* ------------EXPERIENCIAS-------------- */
+    .Experiencia_Laboral {
+        width: calc(100vw - 8em);
+    }
+    .Wrapper_Cards_Experiencia_Laboral {
+        flex-direction: column;
+    }
+    .Card_Experiencia_Laboral {
+        width: 100%;
+    }
+/* -------------ESTUDIOS-------------- */
+    .Estudios {
+        width: calc(100vw - 8em);
+        flex-direction: column;
+    }
+    .Wrapper_Estudios {
+        width: calc(100% - 4em);
+        margin-bottom: 2em;
+    }
+    .Idiomas {
+        width: calc(100% - 4em);
+    }
+    .Blog img {
+        width: 40%;
+    }
+   /*  --------SERVICIOS------------ */
+    .Servicios {
+        width: calc(100vw - 8em);
+    }
+    .Cards_Servicios {
+        flex-direction: column;
+    }
+    .Card_Servicios {
+        width: calc(100% - 4em);
+        margin-bottom: 2em;
+    }
+}

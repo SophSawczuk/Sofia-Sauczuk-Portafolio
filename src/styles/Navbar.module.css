@@ -1,0 +1,84 @@
+.Wrapper {
+    background-color: black;
+    color: white;
+    height: 10vh;
+    display: flex;
+    width: calc(100vw - 4em);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em 0 2em;
+    top: 0;
+    position: fixed;
+    z-index: 2;
+}
+
+.Wrapper h2 {
+    font-weight: bold;
+}
+.Wrapper h2:hover {
+    cursor: pointer;
+}
+
+.Wrapper ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width:50vw;
+    align-items: center;
+}
+.Wrapper li:hover {
+    cursor: pointer;
+}
+
+
+
+.Mobile {
+    display: none;
+}
+@media (max-width: 1000px) {
+    .Wrapper {
+        display: none;
+    }
+    .Mobile {
+        display: flex;
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        width: 100vw;
+        background-color: black;
+
+    }
+    .LogosWrapper {
+        display: flex;
+        justify-content: space-between;
+        height: 10vh;
+        text-align: center;
+        align-items: center;
+        
+    }
+    .ContainerMobile {
+        
+        color: white;
+        height: min-content;
+        width: 100vw;
+        display: inline-block;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Burguer {
+        height: min-content;
+        background-color: black;
+        padding-left: 80vw;
+    }
+    .Logo {
+        margin:0 0 0 1em;
+        z-index: 4;
+
+    }
+    .Menu_Burger {
+        height: 40px;
+        width: 40px;
+        margin-right: 1em;
+    }
+}
+
