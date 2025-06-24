@@ -1,0 +1,95 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About Me",
+        "projects": "Projects",
+        "experience": "Experience",
+        "studies": "Studies",
+        "services": "Services",
+        "contact": "Contact"
+    },
+    "home": {
+        "name": "Sofia Sauczuk",
+        "title": "Web Development - Web Design - SEO",
+        "description": "I create purpose-driven websites: designing from the essence of the project, understanding its story and what it seeks to solve.",
+        "emailLabel": "Email:",
+        "email": "sofiasawczuka@gmail.com",
+        "downloadCV": "Download CV"
+    },
+    "about": {
+        "title": "About me",
+        "description": "I'm from Argentina and specialize in frontend development with React. I focus on building websites that not only look great but also sell: sites designed to communicate clearly, build trust, and convert visitors into clients. I enjoy constantly learning and applying new knowledge to improve real-world results.",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "tools": "Tools"
+    },
+   "projects": {
+        "title": "Projects",
+        "mountains": {
+            "name": "Mountains Development",
+            "description": "Website developed with React to offer web design and development services to tourist accommodations. The site is fully optimized for mobile devices, with a responsive design that ensures smooth navigation on any screen. It includes a simple and functional contact form that helps turn visits into inquiries. Each section was strategically designed to communicate clarity, trust, and professionalism, reflecting my focus on creating visually appealing, user-friendly, and results-driven websites."
+        },
+        "esquel": {
+            "name": "Esquel Apart",
+            "description": "Esquel Apart is a website I developed for an apartment complex in the city of Esquel, aimed at improving their online presence and facilitating communication with potential guests. The site is fully responsive, adapted for all device types, and features a clean, modern design that highlights the warmth of the accommodation. I integrated an external booking system and a Google Maps embed to enhance the user experience and clearly show the location. The entire development focused on simplicity, fast load times, and ease of use, prioritizing intuitive and effective navigation."
+        },
+        "webdesigner": {
+            "name": "Web Designer Egypt",
+            "description": "Web Designer Egypt is a website I built using a no-code platform, where I was responsible for both the design and frontend development. I worked on content organization, visual structure, and responsive adaptation to ensure a smooth experience across all devices. I also translated all original content into Spanish, adapting it to be clear and effective for a new target audience. This project showcases my ability to combine visual tools with design judgment and attention to detail, delivering professional results without traditional code."
+        },
+        "viewSite": "View site"
+    },
+    "experience": {
+        "title": "Work Experience",
+        "inbound": {
+            "role": "Inbound Factor - Marketing Assistant",
+            "location": "2025 - Cairo, Egypt",
+            "description": "At Inbound Factor, I worked as an assistant, supporting various digital marketing and SEO-oriented web development tasks. I was responsible for writing creative content for specific sections of websites, translating texts from English to Spanish, and helping search and gather backlinks based on team instructions. I also took part in frontend development projects, contributing to content implementation and visual adjustments. This experience allowed me to combine technical and linguistic skills in a professional, collaborative environment."
+        },
+        "cim": {
+            "role": "Centro de Investigaciones Médicas Mar del Plata - Study Coordinator",
+            "location": "2023 to 2025 - Mar del Plata, Argentina",
+            "description": "I worked as a Study Coordinator in the field of clinical research, where I was responsible for coordinating and overseeing the operational development of medical studies. My main tasks included managing regulatory documents, communicating with labs and monitors, organizing visits, entering data into digital platforms (eCRF), tracking patients, and ensuring compliance with study protocols. This experience allowed me to develop strong organizational skills, attention to detail, and the ability to work under international standards of quality and research ethics."
+        }
+    },
+    "studies": {
+        "title": "Education",
+        "degree1": {
+            "name": "Computer Engineering",
+            "institution": "Universidad Nacional de Mar del Plata - (2022 - Present)"
+        },
+        "degree2": {
+            "name": "Full Stack Web Development",
+            "institution": "Soy Henry - (2022)",
+            "description": "Development of full stack web applications, focused on JavaScript, React, Node.js, Express, and PostgreSQL, applying agile methodologies and teamwork."
+        },
+        "languages": {
+            "title": "Languages",
+            "spanish": "Spanish",
+            "english": "English"
+        },
+        "blog": {
+            "title": "Blog",
+            "text1": "Check out my blog about ",
+            "text2": "Digital Nomads"
+        }
+    },
+    "services": {
+        "title": "What can I do for you?",
+        "design": {
+            "title": "Web Design",
+            "description": "A website is not just a business card—it’s an opportunity to build trust in seconds, to stand out from the crowd, and to turn visitors into real clients. If you have a project, a venture, or a service to offer, I can help you give it an online presence with a professional, clear, and tailored website."
+        },
+        "development": {
+            "title": "Web Development",
+            "description": "A fast website that loads quickly, adapts to all devices, and offers a smooth user experience doesn’t happen by accident. If you need a site that not only looks great but truly works, I can help you build it by combining design and development for a solid, modern, and effective result."
+        },
+        "seo": {
+            "title": "SEO",
+            "description": "Having a website is only the first step. Because if no one finds it, it’s like having a shop with no sign or address. With SEO (Search Engine Optimization) techniques, I can help you position your site so more people find you right when they’re searching for what you offer."
+        }
+    },
+    "contact": {
+        "title": "Contact Me"
+    }
+}

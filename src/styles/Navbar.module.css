@@ -29,6 +29,9 @@
 .Wrapper li:hover {
     cursor: pointer;
 }
+.BtnLanguage {
+    margin-right: 1em;
+}
 
 
 

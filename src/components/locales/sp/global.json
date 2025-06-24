@@ -1,0 +1,95 @@
+{
+    "navbar": {
+        "home": "Inicio",
+        "about": "Acerca de mí",
+        "projects": "Proyectos",
+        "experience": "Experiencia",
+        "studies": "Estudios",
+        "services": "Servicios",
+        "contact": "Contacto"
+    },
+    "home": {
+        "name": "Sofia Sauczuk",
+        "title": "Desarrollo Web - Diseño Web - SEO",
+        "description": "Creo páginas web con propósito: diseño desde la esencia del proyecto, entendiendo su historia y lo que busca resolver.",
+        "emailLabel": "Correo:",
+        "email": "sofiasawczuka@gmail.com",
+        "downloadCV": "Descargar CV"
+    },
+    "about": {
+        "title": "Acerca de mi",
+        "description": "Soy de Argentina y me especializo en desarrollo frontend con React. Me enfoco en crear páginas web que no solo se vean bien, sino que también vendan: sitios pensados para comunicar mejor, generar confianza y convertir visitantes en clientes. Disfruto aprender constantemente y aplicar lo que aprendo para mejorar resultados reales.",
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "tools": "Herramientas"
+    },
+    "projects": {
+        "title": "Proyectos",
+        "mountains": {
+            "name": "Mountains Development",
+            "description": "Sitio web desarrollado con React pensado para ofrecer servicios de diseño y desarrollo web a alojamientos turísticos. El sitio está completamente optimizado para dispositivos móviles, con un diseño responsive que garantiza una navegación fluida en cualquier pantalla. Incluye un formulario de contacto simple y funcional que facilita la conversión de visitas en consultas. Cada sección fue diseñada estratégicamente para comunicar claridad, confianza y profesionalismo, reflejando mi enfoque en crear sitios visualmente atractivos, usables y orientados a resultados."
+        },
+        "esquel": {
+            "name": "Esquel Apart",
+            "description": "Esquel Apart es una página web que desarrollé para un complejo de apartamientos en la ciudad de Esquel, con el objetivo de mejorar su presencia online y facilitar la comunicación con potenciales huéspedes. El sitio es responsive, adaptado a todo tipo de dispositivos, y presenta un diseño limpio y moderno que resalta la calidez del alojamiento. Integré un sistema de reservas externo y un mapa de Google Maps para mejorar la experiencia del usuario y brindar información clara sobre la ubicación. Todo el desarrollo fue realizado con foco en la simplicidad, la velocidad de carga y la facilidad de uso, priorizando una navegación intuitiva y efectiva."
+        },
+        "webdesigner": {
+            "name": "Web Designer Egypt",
+            "description": "Web Designer Egypt es una página que desarrollé utilizando una plataforma no-code, en la cual me encargué tanto del diseño como del desarrollo frontend. Trabajé en la organización del contenido, la estructura visual y la adaptación responsiva para asegurar una experiencia fluida en todo tipo de dispositivos. Además, traduje todo el contenido original al español, adaptándolo para que fuera claro y efectivo para un nuevo público objetivo. Este proyecto refleja mi capacidad para combinar herramientas visuales con criterio de diseño y atención al detalle, entregando resultados profesionales sin necesidad de código tradicional."
+        },
+        "viewSite": "Ver sitio"
+    },
+    "experience": {
+        "title": "Experiencia Laboral",
+        "inbound": {
+            "role": "Inbound Factor - Asistente de Marketing",
+            "location": "2025 - Cairo, Egipto",
+            "description": "En Inbound Factor trabajé como asistente, colaborando en diversas tareas relacionadas con marketing digital y desarrollo web orientadas en el SEO. Me encargué de la redacción de textos creativos para secciones específicas de páginas web, realicé traducciones del inglés al español, y asistí en la búsqueda y recopilación de backlinks según indicaciones del equipo. También participé en proyectos de desarrollo frontend, contribuyendo a la implementación de contenidos y ajustes visuales. Esta experiencia me permitió combinar habilidades técnicas y lingüísticas en un entorno profesional y colaborativo."
+        },
+        "cim": {
+            "role": "Centro de Investigaciones Médicas Mar del Plata - Coordinadora de Estudios",
+            "location": "2023 a 2025 - Mar del Plata, Argentina",
+            "description": "Me desempeñé como Study Coordinator en el área de investigación clínica, donde fui responsable de coordinar y supervisar el desarrollo operativo de estudios médicos. Entre mis tareas principales se incluían la gestión de documentos regulatorios, contacto con laboratorios y monitores, organización de visitas, carga de datos en plataformas digitales (eCRF), seguimiento de pacientes y cumplimiento de los protocolos del estudio. Esta experiencia me permitió desarrollar un alto nivel de organización, atención al detalle y capacidad para trabajar bajo estándares internacionales de calidad y ética en investigación."
+        }
+    },
+    "studies": {
+        "title": "Estudios",
+        "degree1": {
+            "name": "Ingeniería Informática",
+            "institution": "Universidad Nacional de Mar del Plata - (2022 - Actualidad)"
+        },
+        "degree2": {
+            "name": "Desarrollo Web Full Stack",
+            "institution": "Soy Henry - (2022)",
+            "description": "Desarrollo de aplicaciones web full stack, con enfoque en JavaScript, React, Node.js, Express y PostgreSQL, aplicando metodologías ágiles y trabajo en equipo."
+        },
+        "languages": {
+            "title": "Idiomas",
+            "spanish": "Español",
+            "english": "Inglés"
+        },
+        "blog": {
+            "title": "Blog",
+            "text1": "Descubre mi blog sobre ",
+            "text2": "Nómades Digitales"
+        }
+    },
+    "services": {
+        "title": "¿Qué puedo hacer por ti?",
+        "design": {
+            "title": "Diseño Web",
+            "description": "Una página web no es solo una carta de presentación, es la oportunidad de generar confianza en segundos, de destacar entre tantos y de convertir visitas en clientes reales. Si tenés un proyecto, un emprendimiento o un servicio para ofrecer, te puedo ayudar a darle presencia online con una web profesional, clara y adaptada a lo que necesitás."
+        },
+        "development": {
+            "title": "Desarrollo Web",
+            "description": "Una web ágil, que carga rápido, se adapta a todos los dispositivos y ofrece una experiencia fluida, no ocurre por casualidad. Si necesitás una página que no solo se vea bien, sino que funcione de verdad, puedo ayudarte a construirla, combinando diseño y desarrollo para lograr un sitio sólido, moderno y eficaz."
+        },
+        "seo": {
+            "title": "SEO",
+            "description": "Tener una página web es solo el primer paso. Porque si nadie la encuentra, es como tener un local abierto sin cartel ni dirección. A través de técnicas de SEO (Search Engine Optimization), puedo ayudarte a posicionar tu sitio para que más personas lleguen a vos justo cuando están buscando lo que ofrecés."
+        }
+    },
+    "contact": {
+        "title": "¡Contacta conmigo!"
+    }
+}
