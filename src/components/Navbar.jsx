@@ -24,6 +24,8 @@ export default function Navbar({ onIrInicio, onIrAcercaDe, onIrProyectos, onIrEx
         i18n.changeLanguage(lng)
     }
 
+    const [language, setLanguage] = useState(true)
+
     return(
         <div>
             <div className={style.Wrapper}>
@@ -47,8 +49,11 @@ export default function Navbar({ onIrInicio, onIrAcercaDe, onIrProyectos, onIrEx
                     <div className={style.LogosWrapper}>
                         <h2 onClick={(e) => {onIrInicio(); closeMenuWithLogo(e)}} className={style.Logo}>Sofia Sauczuk</h2>
                         <div>
-                    <button onClick={() => changeLang("en")} className={style.BtnLanguage} >English</button>
-                    <button onClick={() => changeLang("sp")} className="m-2">Español</button>
+                    {language ? 
+                        <button onClick={() => {changeLang("sp"), setLanguage(false)}} className="m-2">Español</button> :
+                        <button onClick={() => {changeLang("en"), setLanguage(true)}} className={style.BtnLanguage} >English</button>
+                    }
+                    
                 </div>
                         {open ? menuOpen : menuClosed}
                     </div>

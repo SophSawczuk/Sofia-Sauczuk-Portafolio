@@ -42,6 +42,9 @@
     .Wrapper {
         display: none;
     }
+    .Wrapper h2 {
+        font-size: 1em;
+    }
     .Mobile {
         display: flex;
         position: fixed;

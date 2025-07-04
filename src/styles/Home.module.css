@@ -406,7 +406,7 @@
 @media (max-width: 768px) {
 /* -------------INICIO---------------- */
     .Inicio {
-        width: calc(100vw - 2em);
+        width: 95vw;
     }
     .Description {
         width: 60%;
