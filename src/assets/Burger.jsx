@@ -1,5 +1,5 @@
 import style from "../styles/Burger.module.css"
-
+import { useTranslation } from "react-i18next"
 
 export default function Burger({setOpen, onIrInicio, onIrAcercaDe, onIrProyectos, onIrExperiencia, onIrEstudios, onIrServicios, onIrContacto}) {
 
@@ -7,16 +7,24 @@ export default function Burger({setOpen, onIrInicio, onIrAcercaDe, onIrProyectos
         e.preventDefault()
         setOpen(false)
     }
+
+    const {t, i18n} = useTranslation()
+        const changeLang = (lng) => {
+            i18n.changeLanguage(lng)
+        }
+    
+
+    
     return(
         <div className={style.Container}>
             <ul>
-                <li onClick={(e) => {onIrInicio(); closeMenu(e)}} >Inicio</li>
-                <li onClick={(e) => {onIrAcercaDe(); closeMenu(e)}}>Acerca de mi</li>
-                <li onClick={(e) => {onIrProyectos(); closeMenu(e)}}>Proyectos</li>
-                <li onClick={(e) => {onIrExperiencia(); closeMenu(e)}}>Experiencia</li>
-                <li onClick={(e) => {onIrEstudios(); closeMenu(e)}}>Estudios</li>
-                <li onClick={(e) => {onIrServicios(); closeMenu(e)}}>Servicios</li>
-                <li onClick={(e) => {onIrContacto(); closeMenu(e)}}>Contacto</li>
+                <li onClick={(e) => {onIrInicio(); closeMenu(e)}} >{t("navbar.home")}</li>
+                <li onClick={(e) => {onIrAcercaDe(); closeMenu(e)}}>{t("navbar.about")}</li>
+                <li onClick={(e) => {onIrProyectos(); closeMenu(e)}}>{t("navbar.projects")}</li>
+                <li onClick={(e) => {onIrExperiencia(); closeMenu(e)}}>{t("navbar.experience")}</li>
+                <li onClick={(e) => {onIrEstudios(); closeMenu(e)}}>{t("navbar.studies")}</li>
+                <li onClick={(e) => {onIrServicios(); closeMenu(e)}}>{t("navbar.services")}</li>
+                <li onClick={(e) => {onIrContacto(); closeMenu(e)}}>{t("navbar.contact")}</li>
             </ul>
         </div>
     )
