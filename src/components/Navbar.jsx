@@ -50,8 +50,8 @@ export default function Navbar({ onIrInicio, onIrAcercaDe, onIrProyectos, onIrEx
                         <h2 onClick={(e) => {onIrInicio(); closeMenuWithLogo(e)}} className={style.Logo}>Sofia Sauczuk</h2>
                         <div>
                     {language ? 
-                        <button onClick={() => {changeLang("sp"), setLanguage(false)}} className="m-2">Español</button> :
-                        <button onClick={() => {changeLang("en"), setLanguage(true)}} className={style.BtnLanguage} >English</button>
+                        <button onClick={() => {changeLang("en"), setLanguage(false)}} className={style.BtnLanguage} >English</button> :
+                        <button onClick={() => {changeLang("sp"), setLanguage(true)}} className="m-2">Español</button>
                     }
                     
                 </div>

@@ -420,7 +420,7 @@
     .Acerca_De_Mi {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 100vw;
  
     }
     .Soph {
@@ -443,14 +443,25 @@
 /* ------------PROYECTOS------------- */
     .Proyectos {
         padding: 2em 2em 2em 2em;
+    
     }
     .Card_Proyectos {
         display: flex;
         flex-direction: column;
     }
     .Contenido_Proyecto {
-        width: 100%;
+        width: calc(100vw - 4em);
         margin: 0;
+    }
+    .Wrapper_Etiquetas {
+        width: 90vw;
+        flex-wrap: wrap;
+    }
+    .Etiquetas {
+        margin-bottom: 1em;
+    }
+    .Link_Proyecto {
+        width: fit-content;
     }
     .Preview_Proyecto {
         width: 100%;
@@ -459,18 +470,25 @@
     }
 /* ------------EXPERIENCIAS-------------- */
     .Experiencia_Laboral {
-        width: calc(100vw - 8em);
+        width: calc(100vw - 4em);
+        padding: 2em 2em 2em 2em;
+        height: fit-content;
+    }
+    .Experiencia_Laboral h2 {
+        margin-top: 0;
     }
     .Wrapper_Cards_Experiencia_Laboral {
         flex-direction: column;
     }
     .Card_Experiencia_Laboral {
         width: 100%;
+        margin-top: 2em;
     }
 /* -------------ESTUDIOS-------------- */
     .Estudios {
-        width: calc(100vw - 8em);
+        width: calc(100vw - 4em);
         flex-direction: column;
+        padding: 2em 2em 2em 2em;
     }
     .Wrapper_Estudios {
         width: calc(100% - 4em);
@@ -480,17 +498,47 @@
         width: calc(100% - 4em);
     }
     .Blog img {
-        width: 40%;
+        width: 100%;
+         border-top-right-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .Blog {
+        display: flex;
+        flex-direction: column;
     }
    /*  --------SERVICIOS------------ */
     .Servicios {
-        width: calc(100vw - 8em);
+        width: calc(100vw - 4em);
+        padding: 2em 2em 2em 2em;
+    }
+    .Servicios h2 {
+        text-align: left;
     }
     .Cards_Servicios {
         flex-direction: column;
+        margin: 0;
     }
     .Card_Servicios {
         width: calc(100% - 4em);
-        margin-bottom: 2em;
+        margin: 0 0 2em 0;
+    }
+    /* ---------CONTACTO---------- */
+    .Contacto {
+        width: calc(100vw - 4em);
+        padding: 2em 2em 2em 2em;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .Contacto_Items {
+        width: 70vw;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 1em;
+    }
+    .Iconos_Contacto {
+        margin-top: 1em;
     }
 }
