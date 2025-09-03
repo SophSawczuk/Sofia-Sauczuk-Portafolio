@@ -23,7 +23,7 @@
         "backend": "Backend",
         "tools": "Tools"
     },
-   "projects": {
+    "projects": {
         "title": "Projects",
         "mountains": {
             "name": "Mountains Development",
@@ -36,6 +36,10 @@
         "webdesigner": {
             "name": "Web Designer Egypt",
             "description": "Web Designer Egypt is a website I built using a no-code platform, where I was responsible for both the design and frontend development. I worked on content organization, visual structure, and responsive adaptation to ensure a smooth experience across all devices. I also translated all original content into Spanish, adapting it to be clear and effective for a new target audience. This project showcases my ability to combine visual tools with design judgment and attention to detail, delivering professional results without traditional code."
+        },
+        "likyavillage": {
+            "name": "Likya Village",
+            "description": "In Likya Village I created a modern, responsive website for a hotel in Olympos, Turkey, designed to enhance its digital presence both nationally and internationally. Built with React, the site allows visitors to explore the hotel through an image gallery, easily locate it via Google Maps, get in touch through a simple contact form, and even download the food menu directly from the page. Available in Turkish and English, it provides a smooth experience across all devices."
         },
         "viewSite": "View site"
     },

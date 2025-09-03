@@ -39,6 +39,8 @@ import webdesigeregyptpewview from "../images/web-designer-egypt-preview.png"
 import wordpressgris from "../images/wordpress-grey.png"
 import cim from "../images/cim.png"
 import { useTranslation } from 'react-i18next'
+import likya from "../images/likya.png"
+import likyavillage from "../images/likya-village-preview.png"
 
 
 export default function Home({ refInicio, refAcercaDe, refProyectos, refExperiencia, refEstudios, refServicios, refContacto }) {
@@ -215,7 +217,7 @@ export default function Home({ refInicio, refAcercaDe, refProyectos, refExperien
                         </div>
                         <div className={style.Links_Proyecto}>
                             <div className={style.Link_Proyecto}>
-                                <a /* href="https://webdesigneregypt.com/" */ target="_blank" >
+                                <a href="https://webdesigneregypt.com/" target="_blank" >
                                     <img src={link} />
                                     <p>{t("projects.viewSite")}</p>
                                 </a>
@@ -223,6 +225,52 @@ export default function Home({ refInicio, refAcercaDe, refProyectos, refExperien
                         </div>
                     </div>
                     <img src={webdesigeregyptpewview} className={style.Preview_Proyecto} />
+                </div>
+                <div className={style.Card_Proyectos}>
+                    <div className={style.Contenido_Proyecto}>
+                        <div className={style.Titulo_Proyecto}>
+                            <img src={likya} />
+                            <h3>{t("projects.likyavillage.name")}</h3>
+                        </div>
+                        <p>{t("projects.likyavillage.description")}</p>
+                        <div className={style.Wrapper_Etiquetas}>
+                            <div className={style.Etiquetas}>
+                                <img src={jsgris} />
+                                <p>JavaScript</p>
+                            </div>
+                            <div className={style.Etiquetas}>
+                                <img src={reactgris} />
+                                <p>React</p>
+                            </div>
+                            <div className={style.Etiquetas}>
+                                <img src={htmlgris} />
+                                <p>HTML</p>
+                            </div>
+                            <div className={style.Etiquetas}>
+                                <img src={cssgris} />
+                                <p>CSS</p>
+                            </div>
+                            <div className={style.Etiquetas}>
+                                <img src={figmagris} />
+                                <p>Figma</p>
+                            </div>
+                        </div>
+                        <div className={style.Links_Proyecto}>
+                            <div className={style.Link_Proyecto}>
+                                <a href="https://likyavillage.com/" target="_blank" >
+                                    <img src={link} />
+                                    <p>{t("projects.viewSite")}</p>
+                                </a>
+                            </div>
+                            <div className={style.Link_Proyecto}>
+                                <a href="https://github.com/SophSawczuk/Olympos-Village.git" target="_blank">
+                                    <img src={github} />
+                                    <p>GitHub</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src={likyavillage} className={style.Preview_Proyecto} />
                 </div>
             </div>
             <div className={style.Experiencia_Laboral} ref={refExperiencia}>

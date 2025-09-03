@@ -37,6 +37,10 @@
             "name": "Web Designer Egypt",
             "description": "Web Designer Egypt es una página que desarrollé utilizando una plataforma no-code, en la cual me encargué tanto del diseño como del desarrollo frontend. Trabajé en la organización del contenido, la estructura visual y la adaptación responsiva para asegurar una experiencia fluida en todo tipo de dispositivos. Además, traduje todo el contenido original al español, adaptándolo para que fuera claro y efectivo para un nuevo público objetivo. Este proyecto refleja mi capacidad para combinar herramientas visuales con criterio de diseño y atención al detalle, entregando resultados profesionales sin necesidad de código tradicional."
         },
+        "likyavillage": {
+            "name": "Likya Village",
+            "description": "En Likya Village creé una website moderna y responsiva para un hotel en Olympos, Turquía, diseñada para potenciar su presencia digital a nivel nacional e internacional. El sitio, desarrollado en React, permite a los visitantes explorar el hotel a través de una galería de imágenes, localizarlo fácilmente con Google Maps, contactarse mediante un formulario sencillo y, además, descargar el menú de comidas directamente desde la página. Disponible en turco e inglés, ofrece una experiencia fluida y adaptada a todos los dispositivos."
+        },
         "viewSite": "Ver sitio"
     },
     "experience": {
